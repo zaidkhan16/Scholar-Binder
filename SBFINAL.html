@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scholar Binder - Login</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="heading">Scholar Binder</h1>
+    <form id="login-form">
+      <h2>Login</h2>
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Log In</button>
+      <a href="#" class="forgot-password">Forgot password?</a>
+    </form>
+    <div class="signup-link">
+      Don't have an account? <a href="#" onclick="toggleSignup()">Sign Up</a>
+    </div>
+  </div>
+
+  <div class="container signup-container" style="display: none;">
+    <h1 class="heading">Scholar Binder</h1>
+    <form id="signup-form">
+      <h2>Sign Up</h2>
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="New Password" required>
+      <input type="password" placeholder="Confirm Password" required>
+      <input type="tel" placeholder="Phone Number">
+      <input type="text" placeholder="Address">
+      <button type="submit">Sign Up</button>
+    </form>
+    <div class="signup-link">
+      Already have an account? <a href="#" onclick="toggleSignup()">Log In</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

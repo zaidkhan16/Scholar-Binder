@@ -1,0 +1,77 @@
+body {
+  background-color:#0c0a33;
+  /* font-family: Arial, sans-serif; */
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.heading {
+  font-size: 36px;
+  color: #9932CC;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding: 20px;
+  background-color: #483D8B;
+  border-radius: 10px;
+  color: #FFFFFF;
+}
+
+form h2 {
+  margin: 0 0 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4B0082;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #BA55D3;
+}
+
+.forgot-password {
+  color: #FF1493;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.signup-link {
+  color: #FFFFFF;
+  margin-top: 20px;
+  font-family:;
+}
+
+.signup-link a {
+  color: #1E90FF;
+  text-decoration: none;
+}
+
+.signup-container {
+  background-color: #0c0a33;
+}
